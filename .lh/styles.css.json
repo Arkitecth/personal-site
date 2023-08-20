@@ -1,0 +1,634 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 154,
+            "patches": [
+                {
+                    "date": 1692450886880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692450898339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,9 +170,9 @@\n }\n \n .project-section {\n     display: grid;\n-    grid-template-columns: repeat(3, 1fr);\n+    grid-template-columns: repeat(3, auto);\n     gap: 20px;\n     margin-top: 70px;\n }\n \n"
+                },
+                {
+                    "date": 1692450957614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,9 @@\n \n .project-section {\n     display: grid;\n     grid-template-columns: repeat(3, auto);\n-    gap: 20px;\n+    gap: 10px;\n     margin-top: 70px;\n }\n \n \n"
+                },
+                {
+                    "date": 1692451022506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,9 +170,8 @@\n }\n \n .project-section {\n     display: grid;\n-    grid-template-columns: repeat(3, auto);\n     gap: 10px;\n     margin-top: 70px;\n }\n \n"
+                },
+                {
+                    "date": 1692451029377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,8 +170,9 @@\n }\n \n .project-section {\n     display: grid;\n+    grid-template-columns: repeat(3, auto);\n     gap: 10px;\n     margin-top: 70px;\n }\n \n"
+                },
+                {
+                    "date": 1692451040478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,10 +164,9 @@\n }\n \n \n .project-section img {\n-    width: 90%;\n-    height: 184px; \n+    width: 100%;\n }\n \n .project-section {\n     display: grid;\n"
+                },
+                {
+                    "date": 1692451052870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,9 +170,9 @@\n \n .project-section {\n     display: grid;\n     grid-template-columns: repeat(3, auto);\n-    gap: 10px;\n+    gap: 30px;\n     margin-top: 70px;\n }\n \n \n"
+                },
+                {
+                    "date": 1692451073904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,8 +165,9 @@\n \n \n .project-section img {\n     width: 100%;\n+    min-height: 148px;\n }\n \n .project-section {\n     display: grid;\n"
+                },
+                {
+                    "date": 1692451086885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,9 +165,8 @@\n \n \n .project-section img {\n     width: 100%;\n-    min-height: 148px;\n }\n \n .project-section {\n     display: grid;\n"
+                },
+                {
+                    "date": 1692451437973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     color: #fff;\n }\n #title {\n     background: url(images/night_sky.jpg);\n-    background-attachment: fixed;\n+    /* background-attachment: fixed; */\n     background-size: cover;\n     background-position: center;\n     background-repeat: no-repeat;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1692451461716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,8 @@\n     color: #fff;\n }\n #title {\n     background: url(images/night_sky.jpg);\n-    /* background-attachment: fixed; */\n     background-size: cover;\n     background-position: center;\n     background-repeat: no-repeat;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1692451806230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,8 @@\n \n nav ul {\n     display: flex;\n     list-style-type: none;\n-    flex-wrap: wrap;\n }\n \n nav ul li {\n     padding: 0 30px;\n"
+                },
+                {
+                    "date": 1692451902887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n     background-color: #212A3E;\n }\n \n .container {\n-    max-width: 1200px;\n     margin: 0 auto;\n }\n \n \n"
+                },
+                {
+                    "date": 1692451935718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n     background-color: #212A3E;\n }\n \n .container {\n+    max-width: 1200px;\n     margin: 0 auto;\n }\n \n \n@@ -25,9 +26,8 @@\n     background-size: cover;\n     background-position: center;\n     background-repeat: no-repeat;\n     text-align: center;\n-    height: 900px;\n }\n \n nav {\n     display: flex;\n"
+                },
+                {
+                    "date": 1692451946538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     background-size: cover;\n     background-position: center;\n     background-repeat: no-repeat;\n     text-align: center;\n+    height: 900px;\n }\n \n nav {\n     display: flex;\n"
+                },
+                {
+                    "date": 1692451975288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,8 @@\n     flex-direction: column;\n     justify-content: flex-end;\n     align-items: center;\n     padding-top: 30px;\n-    height: 50vh;\n     color: #fff;\n     text-transform: uppercase;\n }\n \n"
+                },
+                {
+                    "date": 1692451981161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n     flex-direction: column;\n     justify-content: flex-end;\n     align-items: center;\n     padding-top: 30px;\n+    height: 50vh;\n     color: #fff;\n     text-transform: uppercase;\n }\n \n"
+                },
+                {
+                    "date": 1692452026107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,11 +90,9 @@\n \n \n /* About Section */\n \n-#about {\n-    padding-top: 150px;\n-}\n+\n .about-page {\n     display: flex;\n     align-items: center;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1692452045145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,11 @@\n \n \n /* About Section */\n \n-\n+#about {\n+    padding-top: 150px;\n+}\n .about-page {\n     display: flex;\n     align-items: center;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1692452057115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,8 @@\n \n /* Skill Section */\n #skills{\n     text-align: center;\n-    margin-top: 500px;\n     padding: 100px;\n     background-color:#394867; \n }\n \n"
+                },
+                {
+                    "date": 1692452073321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,8 +123,9 @@\n \n /* Skill Section */\n #skills{\n     text-align: center;\n+    margin-top: 100px;\n     padding: 100px;\n     background-color:#394867; \n }\n \n"
+                },
+                {
+                    "date": 1692452079436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,9 @@\n \n /* Skill Section */\n #skills{\n     text-align: center;\n-    margin-top: 100px;\n+    margin-top: 200px;\n     padding: 100px;\n     background-color:#394867; \n }\n \n"
+                },
+                {
+                    "date": 1692452095186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,9 @@\n \n /* Skill Section */\n #skills{\n     text-align: center;\n-    margin-top: 200px;\n+    margin-top: 300px;\n     padding: 100px;\n     background-color:#394867; \n }\n \n"
+                },
+                {
+                    "date": 1692452220964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n     align-content: center;\n     justify-content: space-between;\n     padding-top: 50px;\n     font-size: 1.24rem;\n+    overflow: hidden;\n }\n \n nav ul {\n     display: flex;\n@@ -206,8 +207,12 @@\n     margin-top: 20px;\n }\n \n \n+@media screen and (max-width:600px) {\n \n+}\n \n \n \n+\n+\n"
+                },
+                {
+                    "date": 1692452307718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n     justify-content: space-between;\n     padding-top: 50px;\n     font-size: 1.24rem;\n     overflow: hidden;\n+    position: relative;\n }\n \n nav ul {\n     display: flex;\n"
+                },
+                {
+                    "date": 1692452364831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,9 @@\n     overflow: hidden;\n     position: relative;\n }\n \n+\n nav ul {\n     display: flex;\n     list-style-type: none;\n }\n@@ -209,9 +210,11 @@\n }\n \n \n @media screen and (max-width:600px) {\n-\n+    .topnav .links {\n+        display: none;\n+      }\n }\n \n \n \n"
+                },
+                {
+                    "date": 1692452391399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n }\n \n \n @media screen and (max-width:600px) {\n-    .topnav .links {\n+    .container .links {\n         display: none;\n       }\n }\n \n"
+                },
+                {
+                    "date": 1692452442635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,8 +213,16 @@\n @media screen and (max-width:600px) {\n     .container .links {\n         display: none;\n       }\n+\n+      .topnav a.icon {\n+        background: black;\n+        display: block;\n+        position: absolute;\n+        right: 0;\n+        top: 0;\n+      }\n }\n \n \n \n"
+                },
+                {
+                    "date": 1692452457224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,9 +214,9 @@\n     .container .links {\n         display: none;\n       }\n \n-      .topnav a.icon {\n+      .a.icon {\n         background: black;\n         display: block;\n         position: absolute;\n         right: 0;\n"
+                },
+                {
+                    "date": 1692452474580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,9 @@\n       .a.icon {\n         background: black;\n         display: block;\n         position: absolute;\n-        right: 0;\n+        right: 20px;\n         top: 0;\n       }\n }\n \n"
+                },
+                {
+                    "date": 1692452483812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,10 +218,10 @@\n       .a.icon {\n         background: black;\n         display: block;\n         position: absolute;\n-        right: 20px;\n-        top: 0;\n+        right: 50px;\n+        top: 20px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692452515546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,12 @@\n     text-align: center;\n     height: 900px;\n }\n \n+a.icon {\n+    display: none;\n+}\n+\n nav {\n     display: flex;\n     flex-direction: row;\n     align-content: center;\n"
+                },
+                {
+                    "date": 1692452536221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n     margin-top: 20px;\n }\n \n \n-@media screen and (max-width:600px) {\n+@media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n       }\n \n"
+                },
+                {
+                    "date": 1692452548451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,10 +219,10 @@\n         display: none;\n       }\n \n       .a.icon {\n+        display: block;\n         background: black;\n-        display: block;\n         position: absolute;\n         right: 50px;\n         top: 20px;\n       }\n"
+                },
+                {
+                    "date": 1692452584291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,9 @@\n     .container .links {\n         display: none;\n       }\n \n-      .a.icon {\n+      a.icon {\n         display: block;\n         background: black;\n         position: absolute;\n         right: 50px;\n"
+                },
+                {
+                    "date": 1692452603431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -222,10 +222,10 @@\n       a.icon {\n         display: block;\n         background: black;\n         position: absolute;\n-        right: 50px;\n-        top: 20px;\n+        right: 20px;\n+        top: 30px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692452614214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -222,10 +222,10 @@\n       a.icon {\n         display: block;\n         background: black;\n         position: absolute;\n-        right: 20px;\n-        top: 30px;\n+        right: 50px;\n+        top: 50px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692452645101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,8 +218,11 @@\n     .container .links {\n         display: none;\n       }\n \n+      #title {\n+        padding-left: 20px;\n+      }\n       a.icon {\n         display: block;\n         background: black;\n         position: absolute;\n"
+                },
+                {
+                    "date": 1692452655804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,9 +219,9 @@\n         display: none;\n       }\n \n       #title {\n-        padding-left: 20px;\n+        padding-left: 50px;\n       }\n       a.icon {\n         display: block;\n         background: black;\n"
+                },
+                {
+                    "date": 1692452790929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,8 +216,9 @@\n \n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n+        padding: 20px;\n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692452807244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,9 +216,12 @@\n \n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n+      }\n+      .links li {\n         padding: 20px;\n+        \n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692452817906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,10 +218,9 @@\n     .container .links {\n         display: none;\n       }\n       .links li {\n-        padding: 20px;\n-        \n+        padding: 10px;\n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692452828400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,9 @@\n     .container .links {\n         display: none;\n       }\n       .links li {\n-        padding: 10px;\n+        padding: 20px;\n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692452833580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,9 @@\n     .container .links {\n         display: none;\n       }\n       .links li {\n-        padding: 20px;\n+        padding: 30px;\n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692452843872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,9 @@\n     .container .links {\n         display: none;\n       }\n       .links li {\n-        padding: 30px;\n+        padding: 20px;\n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692452851620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,8 +218,9 @@\n     .container .links {\n         display: none;\n       }\n       .links li {\n+        margin-top: 30px;\n         padding: 20px;\n       }\n \n       #title {\n"
+                },
+                {
+                    "date": 1692452938575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,11 @@\n     text-align: center;\n     height: 900px;\n }\n \n-a.icon {\n+/* a.icon {\n     display: none;\n-}\n+} */\n \n nav {\n     display: flex;\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1692452954755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,11 @@\n     text-align: center;\n     height: 900px;\n }\n \n-/* a.icon {\n+a.icon {\n     display: none;\n-} */\n+}\n \n nav {\n     display: flex;\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1692453077503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -222,8 +222,12 @@\n         margin-top: 30px;\n         padding: 20px;\n       }\n \n+      .intro {\n+        height: 30vh;\n+      }\n+\n       #title {\n         padding-left: 50px;\n       }\n       a.icon {\n"
+                },
+                {
+                    "date": 1692453164546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,16 +216,17 @@\n \n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n+        position: absolute;\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n       }\n \n       .intro {\n-        height: 30vh;\n+        height: 40vh;\n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692453170034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,9 +216,8 @@\n \n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n-        position: absolute;\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692453182132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,9 +223,9 @@\n         padding: 20px;\n       }\n \n       .intro {\n-        height: 40vh;\n+        height: 30vh;\n       }\n \n       #title {\n         padding-left: 50px;\n"
+                },
+                {
+                    "date": 1692453193647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,8 +216,9 @@\n \n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n+        position: absolute;\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692453202777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,9 +216,8 @@\n \n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n-        position: absolute;\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692539379459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -227,9 +227,9 @@\n         height: 30vh;\n       }\n \n       #title {\n-        padding-left: 50px;\n+        /* padding-left: 50px; */\n       }\n       a.icon {\n         display: block;\n         background: black;\n"
+                },
+                {
+                    "date": 1692539461001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -225,12 +225,9 @@\n \n       .intro {\n         height: 30vh;\n       }\n-\n-      #title {\n-        /* padding-left: 50px; */\n-      }\n+     \n       a.icon {\n         display: block;\n         background: black;\n         position: absolute;\n"
+                },
+                {
+                    "date": 1692539522513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,8 +221,11 @@\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n       }\n+      .links {\n+        background-color: #fff;\n+      }\n \n       .intro {\n         height: 30vh;\n       }\n"
+                },
+                {
+                    "date": 1692539614885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -222,9 +222,9 @@\n         margin-top: 30px;\n         padding: 20px;\n       }\n       .links {\n-        background-color: #fff;\n+        background-color: #212A3E;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692539779518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -231,9 +231,9 @@\n       }\n      \n       a.icon {\n         display: block;\n-        background: black;\n+        background: #212A3E;\n         position: absolute;\n         right: 50px;\n         top: 50px;\n       }\n"
+                },
+                {
+                    "date": 1692539901112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,8 +223,9 @@\n         padding: 20px;\n       }\n       .links {\n         background-color: #212A3E;\n+        position: absolute;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692539913383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,9 +223,8 @@\n         padding: 20px;\n       }\n       .links {\n         background-color: #212A3E;\n-        position: absolute;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692539983612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -217,8 +217,12 @@\n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n       }\n+\n+      .container {\n+        justify-content: space-between;\n+      }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n       }\n"
+                },
+                {
+                    "date": 1692539989188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,9 +219,9 @@\n         display: none;\n       }\n \n       .container {\n-        justify-content: space-between;\n+        justify-content: space-around;\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692540006124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,9 +219,9 @@\n         display: none;\n       }\n \n       .container {\n-        justify-content: space-around;\n+        justify-content: center\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692540025794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,9 +219,10 @@\n         display: none;\n       }\n \n       .container {\n-        justify-content: center\n+        justify-content: center;\n+        margin: 0 auto;\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692540031854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,12 +218,8 @@\n     .container .links {\n         display: none;\n       }\n \n-      .container {\n-        justify-content: center;\n-        margin: 0 auto;\n-      }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n       }\n"
+                },
+                {
+                    "date": 1692540065916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -217,15 +217,15 @@\n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n       }\n-\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n       }\n       .links {\n         background-color: #212A3E;\n+        height: 50vh;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692540082164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,9 +223,9 @@\n         padding: 20px;\n       }\n       .links {\n         background-color: #212A3E;\n-        height: 50vh;\n+        height: 100vh;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692540107057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,9 +223,8 @@\n         padding: 20px;\n       }\n       .links {\n         background-color: #212A3E;\n-        height: 100vh;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692540196205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -217,8 +217,12 @@\n @media screen and (max-width:630px) {\n     .container .links {\n         display: none;\n       }\n+\n+      #title {\n+        padding-left: 20px;\n+      }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n       }\n"
+                },
+                {
+                    "date": 1692540421449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,10 @@\n     margin-top: 20px;\n }\n \n \n-@media screen and (max-width:630px) {\n+\n+@media screen and (max-width:768px) {\n     .container .links {\n         display: none;\n       }\n \n"
+                },
+                {
+                    "date": 1692540568709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,11 +215,11 @@\n \n \n \n @media screen and (max-width:768px) {\n-    .container .links {\n+    /* .container .links {\n         display: none;\n-      }\n+      } */\n \n       #title {\n         padding-left: 20px;\n       }\n"
+                },
+                {
+                    "date": 1692540578903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,11 +215,11 @@\n \n \n \n @media screen and (max-width:768px) {\n-    /* .container .links {\n+    .container .links {\n         display: none;\n-      } */\n+      }\n \n       #title {\n         padding-left: 20px;\n       }\n"
+                },
+                {
+                    "date": 1692540997826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,15 +218,15 @@\n @media screen and (max-width:768px) {\n     .container .links {\n         display: none;\n       }\n-\n       #title {\n         padding-left: 20px;\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n+        flex-direction: column;\n       }\n       .links {\n         background-color: #212A3E;\n       }\n"
+                },
+                {
+                    "date": 1692541006335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -224,12 +224,13 @@\n       }\n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n-        flex-direction: column;\n+  \n       }\n       .links {\n         background-color: #212A3E;\n+        flex-direction: column;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692541264037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,15 @@\n     margin-top: 20px;\n }\n \n \n+@media screen and (min-width:769px) {\n+    .container .links {\n+        display: flex;\n+      } \n+}\n \n+\n @media screen and (max-width:768px) {\n     .container .links {\n         display: none;\n       }\n"
+                },
+                {
+                    "date": 1692541307415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n     background-position: center;\n     background-repeat: no-repeat;\n     text-align: center;\n     height: 900px;\n+    padding-left: 20px;\n }\n \n a.icon {\n     display: none;\n@@ -224,11 +225,9 @@\n @media screen and (max-width:768px) {\n     .container .links {\n         display: none;\n       }\n-      #title {\n-        padding-left: 20px;\n-      }\n+      \n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n   \n"
+                },
+                {
+                    "date": 1692541313688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,8 @@\n     color: #fff;\n }\n #title {\n     background: url(images/night_sky.jpg);\n-    background-size: cover;\n-    background-position: center;\n-    background-repeat: no-repeat;\n     text-align: center;\n     height: 900px;\n     padding-left: 20px;\n }\n"
+                },
+                {
+                    "date": 1692541326328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,11 @@\n     color: #fff;\n }\n #title {\n     background: url(images/night_sky.jpg);\n+    background-size: cover;\n+    /* background-position: center; */\n+    background-repeat: no-repeat;\n     text-align: center;\n     height: 900px;\n     padding-left: 20px;\n }\n"
+                },
+                {
+                    "date": 1692541331827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n }\n #title {\n     background: url(images/night_sky.jpg);\n     background-size: cover;\n-    /* background-position: center; */\n+    background-position: center;\n     background-repeat: no-repeat;\n     text-align: center;\n     height: 900px;\n     padding-left: 20px;\n"
+                },
+                {
+                    "date": 1692541338002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n #title {\n     background: url(images/night_sky.jpg);\n     background-size: cover;\n     background-position: center;\n-    background-repeat: no-repeat;\n     text-align: center;\n     height: 900px;\n     padding-left: 20px;\n }\n"
+                },
+                {
+                    "date": 1692541417701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -231,9 +231,8 @@\n         padding: 20px;\n   \n       }\n       .links {\n-        background-color: #212A3E;\n         flex-direction: column;\n       }\n \n       .intro {\n"
+                },
+                {
+                    "date": 1692541506978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,9 +215,9 @@\n \n \n @media screen and (min-width:769px) {\n     .container .links {\n-        display: flex;\n+        display: flex !important;\n       } \n }\n \n \n"
+                },
+                {
+                    "date": 1692541586939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,8 +221,12 @@\n }\n \n \n @media screen and (max-width:768px) {\n+\n+    .container {\n+        background-color: #212A3E;\n+    }\n     .container .links {\n         display: none;\n       }\n       \n"
+                },
+                {
+                    "date": 1692541597542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,12 +221,8 @@\n }\n \n \n @media screen and (max-width:768px) {\n-\n-    .container {\n-        background-color: #212A3E;\n-    }\n     .container .links {\n         display: none;\n       }\n       \n"
+                },
+                {
+                    "date": 1692541625225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -232,8 +232,9 @@\n   \n       }\n       .links {\n         flex-direction: column;\n+        background: #212A3E;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692541687223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,9 +241,8 @@\n       }\n      \n       a.icon {\n         display: block;\n-        background: #212A3E;\n         position: absolute;\n         right: 50px;\n         top: 50px;\n       }\n"
+                },
+                {
+                    "date": 1692541715207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,8 +238,12 @@\n \n       .intro {\n         height: 30vh;\n       }\n+\n+      img {\n+        width: 20%;\n+      }\n      \n       a.icon {\n         display: block;\n         position: absolute;\n"
+                },
+                {
+                    "date": 1692541800772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,8 +239,13 @@\n       .intro {\n         height: 30vh;\n       }\n \n+      .skill-section {\n+        grid-template-rows: 1fr 1fr;\n+        grid-template-columns: repeat(3, 1fr);\n+      }\n+\n       img {\n         width: 20%;\n       }\n      \n"
+                },
+                {
+                    "date": 1692541834494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,9 +241,9 @@\n       }\n \n       .skill-section {\n         grid-template-rows: 1fr 1fr;\n-        grid-template-columns: repeat(3, 1fr);\n+        grid-template-columns: repeat(2, 1fr);\n       }\n \n       img {\n         width: 20%;\n"
+                },
+                {
+                    "date": 1692541901962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,8 +235,12 @@\n         flex-direction: column;\n         background: #212A3E;\n       }\n \n+      p {\n+        width: fit-content;\n+      }\n+\n       .intro {\n         height: 30vh;\n       }\n \n"
+                },
+                {
+                    "date": 1692542098079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n         flex-direction: column;\n         background: #212A3E;\n       }\n \n-      p {\n+      .about-page > p {\n         width: fit-content;\n       }\n \n       .intro {\n"
+                },
+                {
+                    "date": 1692542106003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -237,8 +237,9 @@\n       }\n \n       .about-page > p {\n         width: fit-content;\n+        font-size: 14px;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692542116336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,8 +238,9 @@\n \n       .about-page > p {\n         width: fit-content;\n         font-size: 14px;\n+        text-align: center;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692542151423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -224,8 +224,12 @@\n @media screen and (max-width:768px) {\n     .container .links {\n         display: none;\n       }\n+\n+      #title {\n+        font-size: 14px;\n+      }\n       \n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n@@ -239,8 +243,9 @@\n       .about-page > p {\n         width: fit-content;\n         font-size: 14px;\n         text-align: center;\n+        line-height: 1.4;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692542163651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -225,10 +225,10 @@\n     .container .links {\n         display: none;\n       }\n \n-      #title {\n-        font-size: 14px;\n+      #intro {\n+        font-size: 20px;\n       }\n       \n       .links li {\n         margin-top: 30px;\n"
+                },
+                {
+                    "date": 1692542174957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -225,9 +225,9 @@\n     .container .links {\n         display: none;\n       }\n \n-      #intro {\n+      .intro h1 {\n         font-size: 20px;\n       }\n       \n       .links li {\n"
+                },
+                {
+                    "date": 1692542234587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -226,9 +226,9 @@\n         display: none;\n       }\n \n       .intro h1 {\n-        font-size: 20px;\n+        font-size: 30px;\n       }\n       \n       .links li {\n         margin-top: 30px;\n"
+                },
+                {
+                    "date": 1692542257302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -226,10 +226,14 @@\n         display: none;\n       }\n \n       .intro h1 {\n-        font-size: 30px;\n+        font-size: 40px;\n       }\n+\n+      .intro p {\n+        margin-top: 20px;\n+      }\n       \n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692542288864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -225,15 +225,15 @@\n     .container .links {\n         display: none;\n       }\n \n+      .intro {\n+        margin-top: 20%;\n+      }\n+\n       .intro h1 {\n         font-size: 40px;\n       }\n-\n-      .intro p {\n-        margin-top: 20px;\n-      }\n       \n       .links li {\n         margin-top: 30px;\n         padding: 20px;\n"
+                },
+                {
+                    "date": 1692542294350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -226,9 +226,9 @@\n         display: none;\n       }\n \n       .intro {\n-        margin-top: 20%;\n+        margin-top: 40%;\n       }\n \n       .intro h1 {\n         font-size: 40px;\n"
+                },
+                {
+                    "date": 1692542428688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n     color:#fff;\n     background-color: #212A3E;\n }\n \n+\n .container {\n     max-width: 1200px;\n     margin: 0 auto;\n }\n@@ -29,8 +30,16 @@\n     height: 900px;\n     padding-left: 20px;\n }\n \n+#title::before {\n+    content: '';\n+    position: absolute;\n+    background-color: #000;\n+    top: 0;\n+    right: 0;\n+}\n+\n a.icon {\n     display: none;\n }\n \n@@ -88,8 +97,9 @@\n }\n \n \n \n+\n .intro > h1 {\n     font-size: 60px;\n     margin-bottom: 20px;\n     font-weight: normal;\n@@ -226,9 +236,9 @@\n         display: none;\n       }\n \n       .intro {\n-        margin-top: 40%;\n+        margin-top: 50%;\n       }\n \n       .intro h1 {\n         font-size: 40px;\n"
+                },
+                {
+                    "date": 1692542435696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n     position: absolute;\n     background-color: #000;\n     top: 0;\n     right: 0;\n+    height: 100%;\n }\n \n a.icon {\n     display: none;\n"
+                },
+                {
+                    "date": 1692542465927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,8 @@\n     content: '';\n     position: absolute;\n     background-color: #000;\n     top: 0;\n-    right: 0;\n     height: 100%;\n }\n \n a.icon {\n"
+                },
+                {
+                    "date": 1692542566774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,10 @@\n     content: '';\n     position: absolute;\n     background-color: #000;\n     top: 0;\n+    left: 0;\n+    width: 100%;\n     height: 100%;\n }\n \n a.icon {\n"
+                },
+                {
+                    "date": 1692542578730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n     background-color: #000;\n     top: 0;\n     left: 0;\n     width: 100%;\n+    opacity: 0.5;\n     height: 100%;\n }\n \n a.icon {\n"
+                },
+                {
+                    "date": 1692542585626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     background-color: #000;\n     top: 0;\n     left: 0;\n     width: 100%;\n-    opacity: 0.5;\n+    opacity: 0.25;\n     height: 100%;\n }\n \n a.icon {\n"
+                },
+                {
+                    "date": 1692542622929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     background-color: #000;\n     top: 0;\n     left: 0;\n     width: 100%;\n-    opacity: 0.25;\n+    opacity: 0.75;\n     height: 100%;\n }\n \n a.icon {\n"
+                },
+                {
+                    "date": 1692542629019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     background-color: #000;\n     top: 0;\n     left: 0;\n     width: 100%;\n-    opacity: 0.75;\n+    opacity: 0.15;\n     height: 100%;\n }\n \n a.icon {\n"
+                },
+                {
+                    "date": 1692542635163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     background-color: #000;\n     top: 0;\n     left: 0;\n     width: 100%;\n-    opacity: 0.15;\n+    opacity: 0.25;\n     height: 100%;\n }\n \n a.icon {\n"
+                },
+                {
+                    "date": 1692542699492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n         display: none;\n       }\n \n       .intro {\n-        margin-top: 50%;\n+        margin-top: 100px;\n       }\n \n       .intro h1 {\n         font-size: 40px;\n"
+                },
+                {
+                    "date": 1692542706756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n         display: none;\n       }\n \n       .intro {\n-        margin-top: 100px;\n+        margin-top: 200px;\n       }\n \n       .intro h1 {\n         font-size: 40px;\n"
+                },
+                {
+                    "date": 1692542713541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n         display: none;\n       }\n \n       .intro {\n-        margin-top: 200px;\n+        margin-top: 300px;\n       }\n \n       .intro h1 {\n         font-size: 40px;\n"
+                },
+                {
+                    "date": 1692542723996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n         display: none;\n       }\n \n       .intro {\n-        margin-top: 300px;\n+        margin-top: 2050px;\n       }\n \n       .intro h1 {\n         font-size: 40px;\n"
+                },
+                {
+                    "date": 1692542759520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,8 +103,9 @@\n \n \n .intro > h1 {\n     font-size: 60px;\n+    margin-top: 100px;\n     margin-bottom: 20px;\n     font-weight: normal;\n }\n \n@@ -239,9 +240,9 @@\n         display: none;\n       }\n \n       .intro {\n-        margin-top: 2050px;\n+        margin-top: 250px;\n       }\n \n       .intro h1 {\n         font-size: 40px;\n"
+                },
+                {
+                    "date": 1692542765686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n     flex-direction: column;\n     justify-content: flex-end;\n     align-items: center;\n     padding-top: 30px;\n-    height: 50vh;\n+    height: 60vh;\n     color: #fff;\n     text-transform: uppercase;\n }\n \n"
+                },
+                {
+                    "date": 1692542771929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,9 +103,8 @@\n \n \n .intro > h1 {\n     font-size: 60px;\n-    margin-top: 100px;\n     margin-bottom: 20px;\n     font-weight: normal;\n }\n \n"
+                },
+                {
+                    "date": 1692542862346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n       }\n \n       .skill-section {\n         grid-template-rows: 1fr 1fr;\n-        grid-template-columns: repeat(2, 1fr);\n+        grid-template-columns: repeat(3, 1fr);\n       }\n \n       img {\n         width: 20%;\n"
+                },
+                {
+                    "date": 1692542872558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n       }\n \n       .skill-section {\n         grid-template-rows: 1fr 1fr;\n-        grid-template-columns: repeat(3, 1fr);\n+        grid-template-columns: repeat(2, 1fr);\n       }\n \n       img {\n         width: 20%;\n"
+                },
+                {
+                    "date": 1692542910566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -260,9 +260,9 @@\n       .about-page > p {\n         width: fit-content;\n         font-size: 14px;\n         text-align: center;\n-        line-height: 1.4;\n+        line-height: 2;\n       }\n \n       .intro {\n         height: 30vh;\n"
+                },
+                {
+                    "date": 1692542944900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n       img {\n-        width: 20%;\n+        width: 100%;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692542977541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,9 +272,9 @@\n         grid-template-rows: 1fr 1fr;\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n-      img {\n+      .project-section img {\n         width: 100%;\n       }\n      \n       a.icon {\n"
+                },
+                {
+                    "date": 1692542985897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n       .project-section img {\n-        width: 100%;\n+        width: 200%;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692542993989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n       .project-section img {\n-        width: 200%;\n+        width: 33.3%;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543003666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n       .project-section img {\n-        width: 33.3%;\n+        width: 90%;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543018055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n       .project-section img {\n-        width: 90%;\n+        width: 200px;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543060584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,8 +272,12 @@\n         grid-template-rows: 1fr 1fr;\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n+      .project-section {\n+        display: grid;\n+        grid-column: 1fr 1fr;\n+      }\n       .project-section img {\n         width: 200px;\n       }\n      \n"
+                },
+                {
+                    "date": 1692543070363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -274,9 +274,9 @@\n       }\n \n       .project-section {\n         display: grid;\n-        grid-column: 1fr 1fr;\n+        grid-template-columns: 1fr 1fr;\n       }\n       .project-section img {\n         width: 200px;\n       }\n"
+                },
+                {
+                    "date": 1692543095462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -277,9 +277,9 @@\n         display: grid;\n         grid-template-columns: 1fr 1fr;\n       }\n       .project-section img {\n-        width: 200px;\n+        width: 100%;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543169699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -277,9 +277,10 @@\n         display: grid;\n         grid-template-columns: 1fr 1fr;\n       }\n       .project-section img {\n-        width: 100%;\n+        width: 100px;\n+        height: 100px;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543188307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -275,8 +275,9 @@\n \n       .project-section {\n         display: grid;\n         grid-template-columns: 1fr 1fr;\n+        justify-content: center;\n       }\n       .project-section img {\n         width: 100px;\n         height: 100px;\n"
+                },
+                {
+                    "date": 1692543222598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,8 +276,9 @@\n       .project-section {\n         display: grid;\n         grid-template-columns: 1fr 1fr;\n         justify-content: center;\n+        width: 100%;\n       }\n       .project-section img {\n         width: 100px;\n         height: 100px;\n"
+                },
+                {
+                    "date": 1692543239531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,8 +272,12 @@\n         grid-template-rows: 1fr 1fr;\n         grid-template-columns: repeat(2, 1fr);\n       }\n \n+      .projects {\n+        width: 100%;\n+      }\n+\n       .project-section {\n         display: grid;\n         grid-template-columns: 1fr 1fr;\n         justify-content: center;\n"
+                },
+                {
+                    "date": 1692543381758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,10 +283,10 @@\n         justify-content: center;\n         width: 100%;\n       }\n       .project-section img {\n-        width: 100px;\n-        height: 100px;\n+        width: 100%;\n+        height: auto;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543415991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,8 +183,9 @@\n \n \n .project-section img {\n     width: 100%;\n+    height: auto;\n }\n \n .project-section {\n     display: grid;\n"
+                },
+                {
+                    "date": 1692543432723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,9 +285,8 @@\n         width: 100%;\n       }\n       .project-section img {\n         width: 100%;\n-        height: auto;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543464351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,8 +285,9 @@\n         width: 100%;\n       }\n       .project-section img {\n         width: 100%;\n+        max-width: 400px;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543506229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,8 +184,9 @@\n \n .project-section img {\n     width: 100%;\n     height: auto;\n+    max-width: 400px;\n }\n \n .project-section {\n     display: grid;\n"
+                },
+                {
+                    "date": 1692543533156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,8 @@\n         width: 100%;\n       }\n       .project-section img {\n         width: 100%;\n-        max-width: 400px;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543652612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,8 +296,14 @@\n         top: 50px;\n       }\n }\n \n+@media screen and (max-width:375px) {\n+    .project-section img {\n+        width: 200px;\n+      }\n+}\n \n \n \n \n+\n"
+                },
+                {
+                    "date": 1692543659218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -298,9 +298,9 @@\n }\n \n @media screen and (max-width:375px) {\n     .project-section img {\n-        width: 200px;\n+        width: 300px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692543666326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -298,9 +298,9 @@\n }\n \n @media screen and (max-width:375px) {\n     .project-section img {\n-        width: 300px;\n+        width: 100px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692543677495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -298,9 +298,9 @@\n }\n \n @media screen and (max-width:375px) {\n     .project-section img {\n-        width: 100px;\n+        width: 155px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692543690297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -298,9 +298,9 @@\n }\n \n @media screen and (max-width:375px) {\n     .project-section img {\n-        width: 155px;\n+        width: 160px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692543701582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,9 +285,9 @@\n         justify-content: center;\n         width: 100%;\n       }\n       .project-section img {\n-        width: 100%;\n+        width: 160px;\n       }\n      \n       a.icon {\n         display: block;\n"
+                },
+                {
+                    "date": 1692543725665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -298,9 +298,9 @@\n }\n \n @media screen and (max-width:375px) {\n     .project-section img {\n-        width: 160px;\n+        width: 150px;\n       }\n }\n \n \n"
+                },
+                {
+                    "date": 1692543815923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,10 +194,14 @@\n     gap: 30px;\n     margin-top: 70px;\n }\n \n+img:hover {\n+    border: 1px solid #fff;\n+}\n \n \n+\n /* Contact Form */\n #contact {\n     text-align: center;\n     padding-top: 150px;\n"
+                },
+                {
+                    "date": 1692543827475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,9 +194,9 @@\n     gap: 30px;\n     margin-top: 70px;\n }\n \n-img:hover {\n+.project-section img:hover {\n     border: 1px solid #fff;\n }\n \n \n"
+                },
+                {
+                    "date": 1692543840682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n     margin-top: 70px;\n }\n \n .project-section img:hover {\n-    border: 1px solid #fff;\n+    border: 2px solid #fff;\n }\n \n \n \n"
+                },
+                {
+                    "date": 1692543862350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n     margin-top: 70px;\n }\n \n .project-section img:hover {\n-    border: 2px solid #fff;\n+    border: 2px solid black;\n }\n \n \n \n"
+                },
+                {
+                    "date": 1692543900065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n     margin-top: 70px;\n }\n \n .project-section img:hover {\n-    border: 2px solid black;\n+    border: 2px solid #212A3E;;\n }\n \n \n \n"
+                },
+                {
+                    "date": 1692543935549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n     margin-top: 70px;\n }\n \n .project-section img:hover {\n-    border: 2px solid #212A3E;;\n+    border: 2px solid #394867;\n }\n \n \n \n"
+                },
+                {
+                    "date": 1692543953709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n     margin-top: 70px;\n }\n \n .project-section img:hover {\n-    border: 2px solid #394867;\n+    border: 2px solid #fff;\n }\n \n \n \n"
+                },
+                {
+                    "date": 1692543981988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,18 +30,18 @@\n     height: 900px;\n     padding-left: 20px;\n }\n \n-#title::before {\n+/* #title::before {\n     content: '';\n     position: absolute;\n     background-color: #000;\n     top: 0;\n     left: 0;\n     width: 100%;\n     opacity: 0.25;\n     height: 100%;\n-}\n+} */\n \n a.icon {\n     display: none;\n }\n"
+                },
+                {
+                    "date": 1692544020521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,18 +30,8 @@\n     height: 900px;\n     padding-left: 20px;\n }\n \n-/* #title::before {\n-    content: '';\n-    position: absolute;\n-    background-color: #000;\n-    top: 0;\n-    left: 0;\n-    width: 100%;\n-    opacity: 0.25;\n-    height: 100%;\n-} */\n \n a.icon {\n     display: none;\n }\n"
+                }
+            ],
+            "date": 1692450886880,
+            "name": "Commit-0",
+            "content": "\n* {\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n    color:#fff;\n    background-color: #212A3E;\n}\n\n.container {\n    max-width: 1200px;\n    margin: 0 auto;\n}\n\n\n\na {\n    text-decoration: none;\n    color: #fff;\n}\n#title {\n    background: url(images/night_sky.jpg);\n    background-attachment: fixed;\n    background-size: cover;\n    background-position: center;\n    background-repeat: no-repeat;\n    text-align: center;\n    height: 900px;\n}\n\nnav {\n    display: flex;\n    flex-direction: row;\n    align-content: center;\n    justify-content: space-between;\n    padding-top: 50px;\n    font-size: 1.24rem;\n}\n\nnav ul {\n    display: flex;\n    list-style-type: none;\n    flex-wrap: wrap;\n}\n\nnav ul li {\n    padding: 0 30px;\n}\n\nnav ul li a {\n    padding: 5px;\n}\n\n\n.logo {\n    font-size: 1.5rem;\n    text-transform: uppercase;\n}\n\n\n\n\nnav ul li a:active,\nnav ul li a:hover {\n    background: #fff;\n    color: #2b1055;\n    border-radius: 10%;\n}\n\n\n.intro {\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-end;\n    align-items: center;\n    padding-top: 30px;\n    height: 50vh;\n    color: #fff;\n    text-transform: uppercase;\n}\n\n\n\n.intro > h1 {\n    font-size: 60px;\n    margin-bottom: 20px;\n    font-weight: normal;\n}\n\n\n/* About Section */\n\n#about {\n    padding-top: 150px;\n}\n.about-page {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n}\n\n.profile-img {\n    height: 130px;\n    width: 130px;\n    margin-top: 100px;\n}\n\n.about-page > p {\n    width: 600px;\n    font-size: 19px;\n    color: white;\n    margin-top: 20px;\n    line-height: 2;\n    text-align: center;\n}\n.about-page > h2 {\n    color: white;\n    margin-top: 20px;\n    text-align: center;\n}\n\n\n/* Skill Section */\n#skills{\n    text-align: center;\n    margin-top: 500px;\n    padding: 100px;\n    background-color:#394867; \n}\n\n\n.skill-section {\n    display: grid;\n    grid-template-rows: 1fr 1fr;\n    grid-template-columns: repeat(5, 1fr);\n    gap: 30px;\n    justify-content: center;\n    align-items: center;\n    align-content: center;\n\n}\n\n#skills h2 {\n    margin-bottom: 50px;\n}\n\n.skill-section img {\n    width: 100px;\n    margin: 0 auto;\n}\n\n\n#projects {\n    text-align: center;\n    padding-top: 150px;\n    padding: 100px;\n}\n\n#projects h2 {\n    margin-top: 90px;\n}\n\n\n.project-section img {\n    width: 90%;\n    height: 184px; \n}\n\n.project-section {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n    margin-top: 70px;\n}\n\n\n\n/* Contact Form */\n#contact {\n    text-align: center;\n    padding-top: 150px;\n    padding: 100px;\n    background-color:#394867; \n}\n\n#contact h2{\n    margin-top: 90px;\n}\n\n#contact h2, #contact p, #contact a {\n    padding: 10px;\n}\n\nfooter {\n    background-color: #9DB2BF;\n    text-align: center;\n    /* color: #212A3E; */\n}\n\nfooter a {\n   padding: 30px;\n   /* color: #212A3E; */\n}\n\nfooter p {\n    margin-top: 20px;\n}\n\n\n\n\n\n\n"
+        }
+    ]
+}

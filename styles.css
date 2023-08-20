@@ -10,6 +10,7 @@ body {
     background-color: #212A3E;
 }
 
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -23,12 +24,16 @@ a {
 }
 #title {
     background: url(images/night_sky.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     text-align: center;
     height: 900px;
+    padding-left: 20px;
+}
+
+
+a.icon {
+    display: none;
 }
 
 nav {
@@ -38,12 +43,14 @@ nav {
     justify-content: space-between;
     padding-top: 50px;
     font-size: 1.24rem;
+    overflow: hidden;
+    position: relative;
 }
+
 
 nav ul {
     display: flex;
     list-style-type: none;
-    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -77,10 +84,11 @@ nav ul li a:hover {
     justify-content: flex-end;
     align-items: center;
     padding-top: 30px;
-    height: 50vh;
+    height: 60vh;
     color: #fff;
     text-transform: uppercase;
 }
+
 
 
 
@@ -126,7 +134,7 @@ nav ul li a:hover {
 /* Skill Section */
 #skills{
     text-align: center;
-    margin-top: 500px;
+    margin-top: 300px;
     padding: 100px;
     background-color:#394867; 
 }
@@ -165,16 +173,20 @@ nav ul li a:hover {
 
 
 .project-section img {
-    width: 90%;
-    height: 184px; 
+    width: 100%;
+    height: auto;
+    max-width: 400px;
 }
 
 .project-section {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
     margin-top: 70px;
+}
+
+.project-section img:hover {
+    border: 2px solid #fff;
 }
 
 
@@ -210,6 +222,80 @@ footer p {
     margin-top: 20px;
 }
 
+
+@media screen and (min-width:769px) {
+    .container .links {
+        display: flex !important;
+      } 
+}
+
+
+@media screen and (max-width:768px) {
+    .container .links {
+        display: none;
+      }
+
+      .intro {
+        margin-top: 250px;
+      }
+
+      .intro h1 {
+        font-size: 40px;
+      }
+      
+      .links li {
+        margin-top: 30px;
+        padding: 20px;
+  
+      }
+      .links {
+        flex-direction: column;
+        background: #212A3E;
+      }
+
+      .about-page > p {
+        width: fit-content;
+        font-size: 14px;
+        text-align: center;
+        line-height: 2;
+      }
+
+      .intro {
+        height: 30vh;
+      }
+
+      .skill-section {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .projects {
+        width: 100%;
+      }
+
+      .project-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        width: 100%;
+      }
+      .project-section img {
+        width: 160px;
+      }
+     
+      a.icon {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+      }
+}
+
+@media screen and (max-width:375px) {
+    .project-section img {
+        width: 150px;
+      }
+}
 
 
 
